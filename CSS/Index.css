@@ -13,34 +13,18 @@ a {
     color: white;
     font-size: 15px;
 }
-#button {
-    display: inline-block;
-    background-color: green;
-    height: 60px;
-    line-height: 60px;
-    padding-left: 15px;
-    padding-right: 15px;
-    box-shadow: 5px 5px 0 greenyellow;
-    transition: transform 100ms linear;
-    
-}
     div {
         display: inline-block;
         width: 100%;
         background-color: #232321;
-    }
+}
     span {
         display: inline-block;
         background-color:  green;
         width: 10px;
         height: 10px;
         margin-right: 10px;
-    }
-
-    #button:hover {
-        transform: scale(1.08);
-        animation: ease;
-    }
+}
     img {
         height: 80px;
         transition: transform 100ms ease;
