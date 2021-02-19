@@ -36,13 +36,18 @@ a {
         height: 10px;
         margin-right: 10px;
     }
-    h1 {
-        color: rgb(255, 255, 255);
-        font-family: 'Press Start 2P',sans-serif;
-        font-size: 30px;
-        text-shadow: 3px 3px 0 green;     
-    }
+
     #button:hover {
+        transform: scale(1.08);
+        animation: ease;
+    }
+    img {
+        height: 80px;
+        transition: transform 100ms ease;
+        animation-delay: 100ms;
+        animation-duration: 2s
+    }
+    img:hover {
         transform: scale(1.08);
         animation: ease;
     }
