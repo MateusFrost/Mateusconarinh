@@ -1,6 +1,6 @@
-h2 {
+.subtitle {
     color: green;
     font-family: 'Press Start 2P',sans-serif;
     font-size: 25px;
-    text-shadow: 5px 5px 0 black;
+    text-shadow: 2px 2px 0 black;
 }

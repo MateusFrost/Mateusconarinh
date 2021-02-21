@@ -1,0 +1,13 @@
+.action {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.action::before {
+    display: inline-block;
+    background-color:  green;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}    
