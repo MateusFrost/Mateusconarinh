@@ -5,3 +5,7 @@
     text-align: center;
     padding: 42px 0;
 }
+
+.banner .box {
+    display: block;
+}

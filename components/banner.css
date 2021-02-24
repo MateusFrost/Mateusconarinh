@@ -1,0 +1,17 @@
+.banner {
+    background-image: url(../assets/img/Fundogif.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1000px; 
+    border-bottom: 10px solid greenyellow;
+}
+   .banner .wrapper {
+ 
+    flex-direction: column;
+    width: 630px;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: center;
+}
